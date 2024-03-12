@@ -64,15 +64,15 @@
 .contact__form{
     width: 360px;
     background-color: var(--container-color);
-    padding: 2rem;
+    padding: 1.5rem;
     align-items: center;
     border-radius: 20px;
 }
 
 .contact__form-div{
     position: relative;
-    margin-bottom: var(--mb-2);
-    height: 4rem;   
+    margin-bottom: var(--mb-1-5);
+    height: 3.5rem;   
 }
 
 .contact__form-input{

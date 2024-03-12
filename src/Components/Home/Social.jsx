@@ -13,10 +13,10 @@ const Social = () => {
         <a href="https://www.linkedin.com/in/keerthidharan-t-890030179" className="home__social-icon" target='_blank'>
             <i class='bx bxl-linkedin-square' ></i>
         </a>
-        <a href="https://github.com/" className="home__social-icon" target='_blank'>
+        <a href="https://github.com/kdaran01" className="home__social-icon" target='_blank'>
             <i className='uil uil-github-alt'></i>
         </a>
-        <a href="https://www.instagram.com" className="home__social-icon" target='_blank'>
+        <a href="https://www.instagram.com/_.keerthidaran_/" className="home__social-icon" target='_blank'>
             <i className='uil uil-instagram'></i>
         </a>
     </div>

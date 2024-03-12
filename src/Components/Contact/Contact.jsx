@@ -1,9 +1,23 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import './Contact.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_rwsttnb', 'template_mfch0ar', form.current, {
+        publicKey: '0p_Sdli2Bi-UG2d6n',
+      })
+      e.target.reset()
+  };
+
     useEffect(()=>{
         AOS.init({
           duration : 2000
@@ -40,7 +54,7 @@ const Contact = () => {
             <div className="contact__content" data-aos="fade-left">
                 <h3 className="contact__title">Write to Me</h3>
 
-                <form className="contact__form">
+                <form className="contact__form" ref={form} onSubmit={sendEmail}>
                     <div className="contact__form-div">
                         <label className='contact__form-tag'>Name</label>
                         <input type="text" name='name' className='contact__form-input' placeholder='Enter your Name' />
@@ -49,6 +63,11 @@ const Contact = () => {
                     <div className="contact__form-div">
                         <label className='contact__form-tag'>EMail</label>
                         <input type="email" name='email' className='contact__form-input' placeholder='Enter your Email' />
+                    </div>
+
+                    <div className="contact__form-div">
+                        <label className='contact__form-tag'>Message</label>
+                        <input type="text" name='msg' className='contact__form-input' placeholder='Enter your Message' />
                     </div>
 
                     <button className="button button--flex">
