@@ -62,7 +62,7 @@ const Data = () => {
                   ></path>
             </svg> */}
         </h1>
-        <h3 className="home__subtitle home__typing" data-aos="fade-up">Fresher</h3>
+        <h3 className="home__subtitle home__typing" data-aos="fade-up">Fresher | Aspiring Developer</h3>
         <p className="home__description" data-aos="fade-up">Organized and Dependable. <br/>
         Successful at Managing Multiple Priorities with a Positive Attitude. <br />
         Self Motivated and Quick Learner.
