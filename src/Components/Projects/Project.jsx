@@ -7,6 +7,7 @@ import chatbot from '../../assets/chatbot.png'
 import railway from '../../assets/railway.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import railway_demo from "../../assets/railway_demo.pdf"
 
 const Project = () => {
     useEffect(()=>{
@@ -26,7 +27,7 @@ const Project = () => {
             img : chatgpt,
             title : "ChatGPT Clone",
             subtitle : "An interactive AI web application using ChatGPT API.",
-            link : ""
+            link : "#"
         },
         {
             img : tour,
@@ -38,13 +39,13 @@ const Project = () => {
             img : railway,
             title : "Railway Reservation System",
             subtitle: "A Java application which allows users to book train tickets",
-            link : "https://drive.google.com/file/d/1tWyiR1l8zS_zn8HTg9eFTcDpG4GIzie_/view?usp=drive_link"
+            link : railway_demo
         },
         {
             img : chatbot,
             title: "An interactive ChatBot",
             subtitle : "A Python application which makes use of Python Libraries to create a ChatBot",
-            link:""
+            link: ""
         }
 
     ]
