@@ -27,7 +27,7 @@ const Project = () => {
             img : chatgpt,
             title : "ChatGPT Clone",
             subtitle : "An interactive AI web application using ChatGPT API.",
-            link : "#"
+            link : "https://clonegpt-lake.vercel.app/"
         },
         {
             img : tour,
