@@ -3,7 +3,7 @@ import './Home.css'
 import Social from './Social'
 import Data from './Data'
 import ScrollDown from './ScrollDown'
-import about from '../../assets/about-DdN9BHuF.png'
+import about from '../../assets/about.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
