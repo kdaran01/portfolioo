@@ -27,13 +27,13 @@ const Project = () => {
             img : chatgpt,
             title : "ChatGPT Clone",
             subtitle : "An interactive AI web application using ChatGPT API.",
-            link : "https://clonegpt-lake.vercel.app/"
+            link : "https://kdharan-ai-clone.vercel.app/"
         },
         {
             img : tour,
             title : "Tour and Travel Website",
             subtitle : "A responsive ReactJs Web application for Tour Agency",
-            link : "https://tour-sable-phi.vercel.app/"
+            link : "https://kdharan-tour.vercel.app/"
         },
         {
             img : railway,
